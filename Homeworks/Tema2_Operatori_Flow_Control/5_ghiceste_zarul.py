@@ -15,7 +15,7 @@ dice_roll = random.randint(1, 6)
 x = int(input("Ghiceste zarul: "))
 if x < dice_roll:
     print(f'Ai pierdut. Ai ales un număr mai mic. Ai ales {x} dar a fost {dice_roll}.')
-elif x> dice_roll:
+elif x > dice_roll:
     print(f'Ai pierdut. Ai ales un număr mai mare. Ai ales {x} dar a fost {dice_roll}.')
 else:
     print(f'Ai ghicit. Felicitări? Ai ales {x} și zarul a fost {dice_roll}.')

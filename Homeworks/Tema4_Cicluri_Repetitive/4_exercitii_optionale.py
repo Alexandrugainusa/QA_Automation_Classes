@@ -65,6 +65,18 @@ while numar_ghicit != numar_secret:
         print('Felicitari! Ai ghicit numarul!')
 print('==================================================')
 
+# numar_secret = random.randint(1,30)
+# condition = True
+# while condition:
+#     numar_ghicit = int(input("Alege un numar intre 1 & 30: "))
+#     if numar_ghicit == numar_secret:
+#         print("Ai ghicit")
+#         break
+#     else:
+#         print('Mai introduce o data')
+
+
+
 # 4. Alege un număr de la tastatură
 # Ex: 7
 # Scrie un program care să genereze în consolă următoarea piramidă

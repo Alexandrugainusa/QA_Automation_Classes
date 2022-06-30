@@ -1,5 +1,5 @@
 """
-Recapitulare - Curs3
+Recapitulare - Curs3.
 """
 # o alta modalitate de a defini dictionare
 another_dict = dict(name='John',

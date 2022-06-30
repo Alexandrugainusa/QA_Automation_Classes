@@ -1,5 +1,5 @@
 """
-Curs 4 - Cicluri Repetitive
+Curs 4 - Cicluri Repetitive.
 """
 
 lst = [1, 3, 4, 6, 7, 8, 10, 11, 13, 17, 12, 24]

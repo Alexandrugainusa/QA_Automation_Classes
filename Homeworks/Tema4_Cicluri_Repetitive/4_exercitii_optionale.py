@@ -51,7 +51,7 @@ print('===================================================')
 # Programul îi spune:
 # Nr secret e mai mare
 # Nr secret e mai mic
-# Felicitări! Ai ghicit!
+# Felicitări! Ai ghicit!.
 
 numar_secret = random.randint(1,30)
 numar_ghicit = int(input("Alege un numar intre 1 & 30: "))

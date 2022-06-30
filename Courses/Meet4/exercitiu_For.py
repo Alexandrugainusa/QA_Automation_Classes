@@ -1,5 +1,5 @@
 """
-For
+For.
 """
 
 lst = ['mama', 'tata', 'mama', 'bunicu', 'masina', 'name', 'roata', 'masina']

@@ -96,8 +96,41 @@ def positive_numbers(my_list):
 
 print(positive_numbers(lst))
 
+
 # 9. Funcție care nu returneaza nimic. Primește două numere și PRINTEAZA
 # ● Primul număr x este mai mare decat al doilea nr y
 # ● Al doilea nr y este mai mare decat primul nr x
 # ● Numerele sunt egale.
+
+def two_numbers(x, y):
+    if x > y:
+        print(f'First number {x} is greater than the second number {y}.')
+    elif y > x:
+        print(f'The second number {y} is greater than the first number {x}.')
+    else:
+        print("The numbers are equal")
+
+
+two_numbers(3, 7)
+
+# 10. Funcție care primește un număr și un set de numere.
+# ● Printeaza ‘am adaugat numărul nou în set’ + returnează True
+# ● Printeaza ‘nu am adaugat numărul în set. Acesta există deja’ +
+# returnează False
+
+set_numbers = {3, 7, 34, 23, 13, 45, 9, 12, 17, 28, 70}
+
+
+def add_number(number_to_set, number):
+    if number in number_to_set:
+        print(f'Not adding number {number} to set. Already exist!')
+        return False
+    else:
+        number_to_set.add(number)
+        print(f'Adding number {number_to_set} in set')
+        return True
+
+
+print(add_number(set_numbers, 8))
+print(add_number(set_numbers, 70))
 

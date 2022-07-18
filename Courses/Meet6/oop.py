@@ -1,5 +1,5 @@
 """
-    Curs5 - OOP
+    Curs5 - OOP.
 """
 import main
 

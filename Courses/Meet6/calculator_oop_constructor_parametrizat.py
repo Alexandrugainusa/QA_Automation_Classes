@@ -1,5 +1,5 @@
 """
-OOP - constructor cu parametri
+OOP - constructor cu parametri.
 """
 
 

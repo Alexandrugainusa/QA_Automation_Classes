@@ -7,4 +7,4 @@ class Search:
 
     def binary_search(self,arr,x):
         pass
-# ToDo - cautare binara
+# ToDo - cautare binara.

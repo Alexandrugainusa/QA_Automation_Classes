@@ -84,11 +84,18 @@ class Dreptunghi:
         print(f'Culoarea este: {self.culoare}')
 
     def aria(self):
-        return f'Aria dreptunghiului este {self.lungime * self.latime}'
+        aria = self.lungime * self.latime
+        return f'Aria dreptunghiului este {aria.__round__(2)}'
 
     def perimetrul(self):
-        return f'Aria dreptunghiului este {self.lungime * 2 + self.latime * 2}'
+        perimetrul = self.lungime * 2 + self.latime * 2
+        return f'Perimetrul dreptunghiului este {perimetrul.__round__(2)}'
 
     def schimba_culoare(self, noua_culoare):
         self.culoare = noua_culoare
 
+
+my_dreptunghi = Dreptunghi(3.3, 4, 'rosu')
+print(my_dreptunghi.aria())
+print(my_dreptunghi.perimetrul())
+print(my_dreptunghi.schimba_culoare('negru'))

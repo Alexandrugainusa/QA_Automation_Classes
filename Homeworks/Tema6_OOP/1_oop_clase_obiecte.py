@@ -64,7 +64,7 @@ Metode:
 ● schimbă_culoarea(noua_culoare) - această metodă nu returneaza nimic.
 Ea va lua ca și parametru o nouă culoare și va suprascrie atributul
 self.culoare. Puteti verifica schimbarea culorii prin apelarea metodei
-descrie().
+descrie()..
 """
 
 

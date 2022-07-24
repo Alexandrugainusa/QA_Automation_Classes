@@ -1,5 +1,5 @@
 """
-Curs 7.3 Inheritance & Polimorfism & Abstract
+Curs 7.3 Inheritance & Polimorfism & Abstract.
 """
 from abc import ABC, abstractmethod
 

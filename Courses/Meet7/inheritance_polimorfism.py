@@ -1,5 +1,5 @@
 """
-Curs 7.2 Inheritance & Polimorfism
+Curs 7.2 Inheritance & Polimorfism.
 """
 
 

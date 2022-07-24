@@ -1,5 +1,5 @@
 """
-Curs 7.1 Exceptions
+Curs 7.1 Exceptions.
 """
 # cod functional
 try:

@@ -1,5 +1,5 @@
 """
-Curs 7.2 Inheritance & Polimorfism
+Curs 7.3 Inheritance & Polimorfism & Abstract
 """
 from abc import ABC, abstractmethod
 
@@ -72,3 +72,9 @@ if __name__ == '__main__':
     chef.make_omleta()
     romanian_chef.make_omleta()
     hungarian_chef.make_omleta()
+
+    # abstract
+    chef.make_sandwich()
+
+# ToDo - alte doua clase de baza care sa fie modelate de ChefModel,
+#  un chef de deserturi si un barista

@@ -1,6 +1,7 @@
 """
-
+Curs 7.2 Inheritance & Polimorfism
 """
+
 
 # clasa parinte
 class Chef:

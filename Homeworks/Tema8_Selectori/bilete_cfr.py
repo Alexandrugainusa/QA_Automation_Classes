@@ -26,7 +26,7 @@ driver.find_element(By.CSS_SELECTOR,
                     ".tF2Cxc > .yuRUbf .LC20lb").click()  # #rso > div:nth-child(1) > div > div > div > div > div > div.yuRUbf > a > h3 copy selector - OPTIMIZAT
 time.sleep(3)
 driver.find_element(By.ID, "input-date-departure").click()
-driver.find_element(By.LINK_TEXT, "4").click()
+driver.find_element(By.LINK_TEXT, "9").click()
 time.sleep(3)
 
 driver.find_element(By.ID, "input-station-departure-name").send_keys("Bucuresti Nord")

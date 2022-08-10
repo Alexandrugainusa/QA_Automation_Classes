@@ -31,3 +31,8 @@ class TestLogin(unittest.TestCase):
         self.driver.find_element(*self.login).click()
 
 #ToDo - sa validam si testul corect
+
+    def test_valid_login(self):
+        self.driver.find_element(*self.user).send_keys('tomsmith')
+        self.driver.find_element(*self.password).send_keys('SuperSecretPassword!')
+        self.driver.find_element(*self.login).click()

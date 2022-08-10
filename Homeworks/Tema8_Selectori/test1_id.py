@@ -21,4 +21,7 @@ time.sleep(2)
 last_name = driver.find_element(By.ID, "last-name").send_keys("37")
 time.sleep(2)
 
+date_formy = driver.find_element(By.ID, 'datepicker').send_keys("01/23/1999")
+time.sleep(3)
+
 driver.quit()

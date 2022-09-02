@@ -1,5 +1,5 @@
 """
-base page
+base page.
 """
 
 

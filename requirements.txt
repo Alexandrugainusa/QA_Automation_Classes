@@ -32,3 +32,8 @@ webdriver-manager==3.7.0
 wrapt==1.14.1
 wsproto==1.1.0
 
+
+sympy~=1.10.1
+pytest~=7.1.2
+behave~=1.2.6
+pytz~=2022.1
